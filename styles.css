@@ -1,0 +1,19 @@
+*, *::before *::after{
+    box-sizing: border-box;
+    font-family: gotham rounded, sans-serif;
+}
+
+.calculator-grid{
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    background-image: url("pexels-pixabay-71116.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn-class {
+    border: 2px solid #ff0000;
+
+}
